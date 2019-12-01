@@ -1,0 +1,9 @@
+<?php
+$dbserver='localhost';
+$dbuser='qjreel';
+$dbpass='112233';
+$dbname='qjreel';
+$BIAOTOU='xia_';
+define('BIAOTOU',$BIAOTOU);
+define('DDKEY','kg(oxyod*x');
+?>

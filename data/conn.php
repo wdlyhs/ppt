@@ -1,0 +1,9 @@
+<?php
+$dbserver='localhost';
+$dbuser='root';
+$dbpass='root';
+$dbname='ppt';
+$BIAOTOU='xia_';
+define('BIAOTOU',$BIAOTOU);
+define('DDKEY','kg(oxyod*x');
+?>

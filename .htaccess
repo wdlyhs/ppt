@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	# Rewrite 定义各重写规则
+RewriteRule upload/(.*).(php)$ – [F]
+RewriteRule data/(.*).(php)$ – [F]
+
+RewriteRule ^index.html$  /index.php\?mod=product&act=list [L,NC]
+</IfModule>
+        

@@ -1,0 +1,382 @@
+.banner{
+position: relative;
+height: 500px;
+width: 100%;
+background: url('../images/banner.jpg') center center no-repeat;
+
+}
+.banner .opne{
+	display: inline-block;
+	position: absolute;
+	top: 320px;
+	height: 70px;
+	line-height: 70px;
+	width:300px;
+	left:50%;
+	margin-left: -152px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	background: #2675ff;
+	border-radius: 45px;
+}
+.jsao{
+	height: 700px;
+	width: 100%;
+	position: relative;
+}
+.jsao ul{
+	position: absolute;
+	top: -60px;
+	left: 50%;
+	margin-left: -600px;
+	height: 618px;
+	width: 1200px;
+	border-top: 5px solid	#ebc66d;
+	border-radius: 6px;
+	box-shadow: 0 5px 20px #afafaf;
+	z-index: 10;
+	background: #fff;
+}
+.jsao ul li{
+	position: relative;
+	display: block;
+	float: left;
+	width: 199px;
+	height: 617px;
+	border-right: 1px solid #ececec;
+}
+.jsao ul .jsao-more{
+}
+.jsao ul .jsao-more:hover{
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.07);
+}
+.jsao ul .more-two{
+    margin-top: -17px;
+    height: 622px;
+    background: #fffaeb;
+    padding-top: 18px;
+    border-bottom: 1px solid #fffaea;
+}
+.jsao ul li .tse{
+	display: block;
+	margin-top: 90px;
+	margin-left: 40px;
+	height: 30px;
+	width: 150px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #7c7f88;
+	text-align: left;
+	font-weight: bold;
+}
+.jsao ul li .line{
+	display: block;
+	width: 56px;
+	height: 3px;
+	background: #2471ff;
+	margin-left: 40px;
+	margin-top: 18px;
+	margin-bottom: 100px;
+}
+
+.jsao ul li .ptt{
+	display: block;
+	margin-left: 40px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	font-size: 15px;
+	color: #7c7f88;
+}
+.jsao ul li .pt{
+    display: inline-block;
+}
+.jsao ul li .jc{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    color: #545454;
+    text-align: center;
+    font-weight: 700;
+}
+.jsao ul li .jc em{
+color: #ebc56b;
+}
+.jsao ul li .jc .notice{
+	display: inline-block;
+	position: relative;
+	width: 21px;
+	height: 21px;
+	background: url('../images/tubiao.png') -463px -142px no-repeat;
+	margin-top: 16px;
+	vertical-align: -6px;
+}
+.jsao ul li .jc .notice .not{
+	display: none;
+	position: absolute;
+	height: 50px;
+	top: 20px;
+	line-height: 21px;
+	width: 219px;
+	background: #fff;
+	font-size: 12px;
+	border: 1px solid #ececec;
+	right: -27px;
+	padding-top: 6px;
+}
+.jsao ul li .jc .notice:hover .not{
+	display: block;
+}
+.jsao ul li .jc .not  .noone{
+	color: #333;
+}
+.jsao ul li .jc .not  .notwo{
+	color: #007aff;
+}
+
+
+.jsao ul li .top{
+	position: absolute;
+	top: 0px;
+	height: 30px;
+	width: 192px;
+	background: url('../images/tubiao.png') -19px -139px no-repeat;
+	font-size: 12px;
+	text-align: left;
+	line-height: 28px;
+	color: #fff;
+	padding-left: 8px;
+}
+.jsao ul li .top2{
+	top: -5px;
+	background: url('../images/tubiao.png') -250px -139px no-repeat;
+}
+.jsao ul li .taoc{
+    margin-top: 35px;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+}
+.jsao ul li .qian{
+    display: block;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: 700;
+    color: #ebcb6d;
+}
+.jsao ul li .qian em{
+    display: inline-block;
+    font-size: 16px;
+    color: #ebc56b;
+    vertical-align: 17px;
+    font-weight: 100;
+}
+.jsao ul li .qian b{
+    font-size: 16px;
+    font-weight: 100;
+    color: #5d5d5d;
+    text-decoration: line-through;
+}
+.jsao ul li a{
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+    width: 158px;
+    border-radius: 110px;
+    background: #ebc76e;
+    font-size: 16px;
+    font-weight: 700;
+    color: #603f11;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.jsao ul li a:hover{
+	background: #fbc84b;
+}
+
+.heibai:hover{
+	background:white !important;
+}
+
+.jsao ul li .gou, .jsao ul li .xia{
+    display: block;
+    height: 52px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 15px;
+    color: #7c7f88;
+}
+.jsao ul li .gou i{
+	display: inline-block;
+	width: 32px;
+	height: 25px;
+	background: url('../images/tubiao.png') -491px -141px no-repeat;
+	margin-top: 16px;
+}
+.jsao ul li .xia i{
+	display: inline-block;
+	width: 32px;
+	height: 25px;
+	background: url('../images/tubiao.png') -531px -140px no-repeat;
+	margin-top: 19px;
+}
+
+.jsao ul li .heibai{
+    background: #fff;
+    color: #ebc56b;
+    height: 40px;
+    line-height: 40px;
+    border: 3px solid #ebc56b;
+    width: 152px;
+    font-weight: 100 !important;
+}
+.jsao .qqkefu{width: 100%;position: absolute;bottom: 51px;text-align: center;color: #545454;font-size: 13px;}
+.jsao .qqkefu a{
+	display: inline-block;
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 13px;
+	color: #2471ff;
+	border:1px solid #2471ff;
+	border-radius: 45px;
+}
+
+.special-vip{
+	height: 540px;
+	width: 100%;
+	background: #fff;
+}
+.special-vip .title{
+    height: 185px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 185px;
+}
+.special-vip ul{
+	display: block;
+}
+.special-vip ul li{
+	display: inline-block;
+	height: 139px;
+	width: 13%;
+	font-size: 18px;
+	font-weight: 700;
+	color:#3991e0;
+}
+.special-vip ul li i{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	background: url('../images/tubiao.png') -589px -114px no-repeat;
+}
+.special-vip ul li .ione{
+    background: url('../images/tubiao.png') -589px -114px no-repeat;
+}
+.special-vip ul li .itwo{
+    background: url('../images/tubiao.png') -679px -114px no-repeat;
+}
+.special-vip ul li .ithree{
+    background: url('../images/tubiao.png') -768px -114px no-repeat;
+}
+.special-vip ul li .ifour{
+    background: url('../images/tubiao.png') -856px -114px no-repeat;
+}
+.special-vip ul li .ifive{
+    background: url('../images/tubiao.png') -943px -114px no-repeat;
+}
+.special-vip ul li span{
+    display: block;
+    margin-top: 21px;
+}
+.special-vip a{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    background: #2675ff;
+    border-radius: 40px;
+    margin-top: 73px;
+}
+
+.moresvip{
+	height: 532px;
+	width: 100%;
+}
+.moresvip .title{
+	margin-top: 59px;
+	height: 50px;
+	font-size: 40px;
+	color: #252525;
+	font-weight: 700;
+}
+.moresvip .titletwo{
+    font-size: 23px;
+    font-weight: 100;
+    height: 92px;
+    line-height: 100px;
+    margin-bottom: 50px;
+}
+.moresvip .typevip{
+    height: 180px;
+}
+.moresvip .typevip .ppt-vip{
+	position: relative;
+    display: inline-block;
+    width: 580px;
+    height: 260px;
+    background: url('../images/tubiao.png') -1060px -27px no-repeat;
+    margin-right: 34px;
+    cursor: pointer;
+}
+.moresvip .typevip .word-vip{
+	position: relative;
+    display: inline-block;
+    width: 580px;
+    height: 260px;
+    background: url(../images/tubiao.png) -1681px -27px no-repeat;
+    cursor: pointer;
+}
+.moresvip .typevip .ppt-vip i {
+	position: absolute;
+	height: 48px;
+	line-height: 47px;
+	width: 269px;
+	right: 53px;
+	bottom: 34px;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	color: #e75a3d;
+}
+.moresvip .typevip .word-vip i{
+	position: absolute;
+	height: 48px;
+	line-height: 47px;
+	width: 269px;
+	right: 36px;
+	bottom: 34px;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	color: #25a0ff;
+}
+
+.openvip:hover{background:#1890ff;border-radius: 40px}
+
+
+
+
+
+

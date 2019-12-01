@@ -1,0 +1,56 @@
+.gnyjh{
+    display:none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -262px;
+    margin-top: -190px;
+    width: 525px;
+    height: 385px;
+    background: url('../images/a-yjh.jpg') no-repeat;
+    z-index: 101;
+    text-align: center;
+}
+.gnyjh1{
+  background: url('../images/a-nouse1.jpg') no-repeat;
+}
+.gnyjh .close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url('../images/common.png') 1px -550px no-repeat;
+    right: 0;
+    margin-right: -40px;
+    cursor: pointer;
+}
+.gnyjh .qian{
+  position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 171px;
+    left: 131px;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Arial;
+    color: #6d4d2c;
+}
+.gnyjh .times{
+  position: absolute;
+    width: 180px;
+    height: 69px;
+    top: 286px;
+    left: 96px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6d4d2c;
+}
+.rightgo{
+  cursor: pointer;
+  display: block;
+  position: absolute;
+    width: 116px;
+    height: 37px;
+    top: 277px;
+    left: 299px;
+}
+ .gnyjh .wenan{color:wheat;position:relative;font-size: 30px;top:72px;}

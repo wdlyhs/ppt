@@ -1,0 +1,362 @@
+.p-banner{
+	height: 130px;
+	margin-top: 16px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.p-middle{
+	width: 100%;
+	position: relative;
+}
+
+.p-middle .n-box{
+	background: #ffffff;
+	box-shadow: 0px 5px 20px #bdbdbd;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.p-middle .n-box .name{
+	width: 1090px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 15px;
+	color: #676767;
+	text-align: left;
+	padding-left: 38px;
+}
+
+.p-middle .n-box .vip{
+	display: inline-block;
+	width: 1172px;
+	position: relative;
+	text-align: center;
+	margin-right: -27px;
+}
+
+.p-middle .n-box .vip .box{
+	display: inline-block;
+	width: 264px;
+	border: 2px solid #e5e5e5;
+	border-radius: 4px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	height: 160px;
+	margin-right: 10px;
+	margin-right: 25px;
+}
+.p-middle .n-box .vip .upbox{
+	display: block;
+	width: 360px;
+	border: 2px solid #dcdcdc;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.mrg{margin: 0 50px;}
+
+.p-middle .n-box .vip .chose{
+	border: 2px solid #f3752d;
+	height: 158px;
+	background: #fff4ed;
+}
+.p-middle .n-box .vip .gou{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 40px;
+	height: 40px;
+	background: url('../images/newpay.png') -79px -165px no-repeat;
+}
+.p-middle .n-box .vip .box .vip-name{
+	height: 20px;
+	line-height: 20px;
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	margin-top: 29px;
+}
+.p-middle .n-box .vip .box .vip-tj{
+	position: absolute;
+	right: 2px;
+	top: -12px;
+	height: 24px;
+	padding: 0 6px;
+	line-height: 24px;
+	background: #fa3c3c;
+	border-radius: 40px;
+	color: #fff;
+	font-size: 13px;
+	box-shadow: 0px 1px 5px #ff7c7c;
+}
+.p-middle .n-box .vip .box .updatetime{
+	position: absolute;
+	bottom: -15px;
+	height: 24px;
+	left: 50%;
+	margin-left: -90px;
+	padding: 0 11px;
+	line-height: 24px;
+	background: #fff;
+	border-radius: 40px;
+	color: #ff6700;
+	font-size: 12px;
+	border: 2px solid #f3752d;
+}
+.p-middle .n-box .vip .box .tj-year{
+	background: #007aff;
+	box-shadow: 0px 1px 5px #007aff;
+}
+
+.p-middle .n-box .vip .box .vip-name span{
+	display: inline-block;
+	font-size: 20px;
+	vertical-align: 5px;
+	font-size: 12px;
+	line-height: 13px;
+	height: 13px;
+	width: 35px;
+	background: #5c82e2;
+	color: #ffffff;
+}
+.p-middle .n-box .vip .box .vip-money{
+	height: 50px;
+	line-height: 50px;
+	font-size: 37px;
+	color: #ff6700;
+	font-weight: bold;
+	font-family: Arial;
+}
+.p-middle .n-box .vip .box .yjia{
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	color: #5d5d5d;
+	font-family: 'Microsoft Yahei';
+	font-weight: 500;
+	margin-left: 6px;
+	text-decoration: line-through;
+}
+.p-middle .n-box .vip .box .vip-money span{
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: 13px;
+	font-weight: 400;
+}
+.p-middle .n-box .vip .box .vip-intr{
+	height: 60px;
+	line-height: 45px;
+	font-size: 16px;
+	color: #848484;
+	letter-spacing: 1px;
+}
+.p-middle .n-box .vip .box .vip-intr em{
+	color: #d7000f;
+}
+.p-middle .n-box .vip .box .vip-intr a{
+	color: #ff6e0c;
+}
+
+.p-middle .n-box .money{
+	height: 47px;
+	line-height: 40px;
+	margin:10px auto;
+	color: #484848;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 35px;
+}
+
+.p-middle .n-box .money em{
+	color:#d7000f;
+	font-family: 'Microsoft Yahei';
+	}
+.p-middle .n-box .money i{
+	display: inline-block;
+	width: 69px;
+	height: 20px;
+	background: url('../images/newpay.png') -2px -158px no-repeat;
+	vertical-align: -5px;
+	margin-left: 4px;
+	}
+.p-middle .n-box .money span{
+	color: #ff6700;
+	font-family: Arial;
+	font-size: 18px;
+	margin-right: 6px;
+}
+
+.p-middle .n-box .into{
+	width:100%;
+	height: 50px;
+	line-height: 50px;
+	color: #898989;
+	font-size: 14px;
+	margin:10px auto;
+	text-align: left;
+}
+
+.p-middle .n-box .pay{
+	width: 100%;
+	height: 272px;
+}
+
+.p-middle .n-box .pay .weixin{
+	display: inline-block;
+	height: 200px;
+	width: 164px;
+	margin-right: 100px;
+}
+.p-middle .n-box .pay .weixin .wx-box{
+	height: 141px;
+	width: 141px;
+	padding: 10px;
+	border: 1px solid #00c901;
+	border-radius: 6px;
+}
+
+.p-middle .n-box .pay .weixin .wx-say{
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #000;
+	margin-top: 10px;
+}
+.p-middle .n-box .pay .weixin .wx-say i{
+	display: inline-block;
+	width: 44px;
+	height: 37px;
+	vertical-align: -10px;
+	background: url('../images/newpay.png') -90px -120px no-repeat;
+}
+
+
+.p-middle .n-box .pay .zhifubao{
+	display: inline-block;
+	height: 200px;
+	width: 164px;
+	border-radius: 4px;
+}
+
+.p-middle .n-box .pay .zhifubao .zfb-box{
+	height: 141px;
+	width: 141px;
+	padding: 10px;
+	border: 1px solid #00a0e9;
+	background: url('../images/newpay.png') -196px -95px no-repeat;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+.p-middle .n-box .pay .zhifubao .zfb-say{
+	height: 35px;
+	line-height: 36px;
+	font-size: 16px;
+	color: #ffffff;
+	background: #00a0e9;
+	margin-top: 13px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.p-middle .n-box .pay .zhifubao .zfb-say:hover{
+	background: #09aef9
+}
+.p-middle .n-box .pay .zhifubao .zfb-say em{
+	font-family: 'SimSun';
+	font-weight: 700; 
+}
+
+.p-middle .n-box .pay .zhifubao .zfb-say i{
+}
+.tishi{
+	    height: 30px;
+	    width: 100%;
+	    text-align: center;
+	    font-size: 12px;
+	    color: #a8a7a7;
+	    margin-bottom: 94px;
+	    line-height: 108px;
+}
+.p-middle .n-box .vip .box .vip-tj2{
+	position: absolute;
+	right: -3px;
+	top: -3px;
+	width: 150px;
+	height: 27px;
+	background: url(../../detail/image/czdone.png) -5px -38px no-repeat;
+}
+.p-middle .n-box .vip .box .nian {
+    display: inline-block;
+    margin-left: 3px;
+    font-size: 16px;
+}
+
+.youhuijuantwo{text-align:left;margin-top:10px;padding-left: 28px;}
+.jyhj{
+	height: 70px;
+	margin-top: 16px;
+	width: 100%;
+	background: url('../images/newpay.png') -29px -16px  no-repeat;
+	color: #ffffff;
+}
+.youhuijuantwo .word{
+	margin-bottom: 14px;padding-top: 7px;
+}
+.p-middle .n-box .money{
+    margin: 7px auto;
+}
+.p-middle .jyhj .qian{
+	display: inline-block;
+	width: 15px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 28px;
+	vertical-align: 18px;
+}
+.p-middle .jyhj .moneys{
+	display: inline-block;
+	height: 70px;
+	line-height: 70px;
+	width: 49px;
+	font-size: 40px;
+	font-family: 'Arial';
+	font-weight: bold;
+}
+.jyhj .vipsj{
+	height: 60px;
+	display: inline-block;
+	padding-left: 25px;
+}
+.jyhj .vipsj p{
+	height: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.jyhj .vipsj em{
+	display: inline-block;
+	height: 29px;
+	line-height: 10px;
+	font-size: 12px;
+	vertical-align: -3px;
+}
+
+@media screen and (min-width: 1600px){
+.wlimit {
+    width: 1450px;
+}
+.p-middle .n-box .name{
+	padding-left: 154px;
+}
+.p-middle .n-box .money {
+    padding-left: 154px;
+}
+.youhuijuantwo{
+	padding-left: 153px;
+}
+
+}

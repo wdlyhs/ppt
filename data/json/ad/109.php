@@ -1,0 +1,1 @@
+<?php exit;?>{"id":"109","img":"template\/default\/img\/123.png","link":"\/","title":"","height":"71","width":"288","content":"","adtype":"LOGO","addtime":"1479631774","sys":"0","edate":"1605801600","type":"1","tag":"","bgcolor":"","ad_content":""}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+.page { padding: 15px 0 15px; clear: both; overflow: hidden; text-align: center; }
+.page div { margin: 0 auto; text-align:center}
+.page a, .page span, .page i { display:inline-block; background: none repeat scroll 0 0 #FFF; margin-left:1px; padding:5px 10px; overflow: hidden; color:#919191; font-size:14px; font-weight:bold; border-right:none; -moz-box-shadow: 1px 1px 0px rgba(204, 204, 204, 0.7); -webkit-box-shadow: 1px 1px 0px rgba(204, 204, 204, 0.7); box-shadow: 1px 1px 0px rgba(204, 204, 204, 0.7); }
+.page a.pg-next { width:40px; border-radius:0 2px 2px 0; font-size:12px;box-shadow:1px 1px 3px rgba(204, 204, 204, 0.7); }
+.page a.pg-next:hover { cursor:pointer; }
+.page span.pg-prev { color:#bbb; font-weight:normal; background:#fff; width:40px; font-size:12px; border-radius: 2px 0 0 2px; box-shadow:1px 1px 3px rgba(204, 204, 204, 0.7); }
+.page span.pg-next { width:40px; border-radius:0 2px 2px 0; font-size:12px;box-shadow: 2px 2px 3px #D0D0CD; background:#fff; color:#bbb; font-weight:normal; }
+.page a.pg-prev { background:#FFFFFF; width:40px; border-radius: 2px 0 0 2px; font-size:12px;box-shadow: 2px 2px 3px #D0D0CD; }
+.page span { background: #264EA7; border: medium none; color: #fff; font-weight: bold; }
+.page a:hover { text-decoration:none; color:#fff; background:#264EA7; }
+.page i { color: #919191 }
+
+.page2 { padding: 10px 0 15px; margin-top: 0px; clear: both; overflow: hidden; text-align: right; }
+.page2 a, .page2 span, .page2 i { background: none repeat scroll 0 0 #FF6C01; border-radius: 3px 3px 3px 3px; color: #FFFFFF; font-weight: bold; margin-left: 5px; overflow: hidden; padding: 3px 8px; }
+.page2 a:hover { text-decoration: none; color: #fff; background-color: #FF9C00; }
+.page2 span { background: none repeat scroll 0 0 transparent; border: medium none; color: #FF6C01; font-weight: bold; }
+.page2 a, .page2 span, .page2 i { border-radius: 0px 0px 0px; background: #fff; color: #6c6c6c; border: #ebebeb solid 1px; font-weight: normal; }
+.page2 a:hover { background: #fff; color: #FF8A2C; }
+.page2 span { font-weight: normal; color: #FF8A2C; background: #F7F7F7; }
+
+.page3 { padding: 25px 0 0; margin-top: 0px; clear: both; overflow: hidden; text-align: right; }
+.page3 a, .page3 span, .page3 i { background: none repeat scroll 0 0 #FF6C01; border-radius: 3px 3px 3px 3px; color: #FFFFFF; font-weight: bold; margin-left: 5px; overflow: hidden; padding: 3px 8px; font-size:12px; }
+.page3 a:hover { text-decoration: none; color: #fff; background-color: #FF9C00; }
+.page3 span { background: none repeat scroll 0 0 transparent; border: medium none; color: #FF6C01; font-weight: bold; }
+.page3 a, .page3 span, .page3 i { border-radius: 0px 0px 0px; background: #fff; color: #6c6c6c; border: #ebebeb solid 1px; font-weight: normal; }
+.page3 a:hover { background: #fff; color: #FF8A2C; }
+.page3 span { font-weight: normal; color: #FF8A2C; background: #F7F7F7; }
+.page3 span.pg-prev, .page3 span.pg-next, .page3 a.pg-prev, .page3 a.pg-next { width: 40px; }
+
+
+

@@ -1,0 +1,4 @@
+location / {
+rewrite /login/$ /index.php?mod=user&act=login last;
+
+}

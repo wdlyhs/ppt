@@ -1,0 +1,389 @@
+127.0.0.1-----set names utf8-----00:10:30
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----00:10:30
+127.0.0.1-----select * from xia_webset where type=2 -----00:10:30
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----00:10:30
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----00:10:30
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----00:10:31
+127.0.0.1-----select title from xia_menu where `mod`="product" and act="addedi" limit 1-----00:10:31
+127.0.0.1-----select id from xia_type where 1=1 order by sort desc limit 1-----00:10:31
+127.0.0.1-----select * from xia_type where pid="0" and tag="article" and model_id=2 order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="734" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="733" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="732" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="731" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="730" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="729" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="728" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="727" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="726" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="725" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----select * from xia_type where pid="724" and tag="article" order by sort desc -----00:10:31
+127.0.0.1-----set names utf8-----00:10:39
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----00:10:39
+127.0.0.1-----select * from xia_webset where type=2 -----00:10:39
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----00:10:40
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----00:10:40
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----00:10:40
+127.0.0.1-----set names utf8-----00:10:45
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----00:10:45
+127.0.0.1-----select * from xia_webset where type=2 -----00:10:45
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----00:10:45
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----00:10:45
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----00:10:45
+127.0.0.1-----set names utf8-----00:10:51
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----00:10:51
+127.0.0.1-----select * from xia_webset where type=2 -----00:10:51
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----00:10:51
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----00:10:51
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----00:10:51
+127.0.0.1-----insert into xia_adminlog set `mod`='product',`admin_name`='admin',`addtime`='1573229450',`ip`='127.0.0.1',`do`='insert'-----00:10:51
+127.0.0.1-----insert into xia_product set `title`='a',`status`='1',`cid`='731',`img`='http://a.fjamac.com/00104513293.png',`video`='',`original`='1',`xia`='',`software`='',`author`='',`format`='',`size`='',`addtime`='1573229431',`sc`='335',`zan`='245',`xiazai`='417',`hits`='1312',`mp3_time`='00:00',`content`='',`sort`='0'-----00:10:51
+127.0.0.1-----select cid from xia_product where id=236 limit 1-----00:10:51
+127.0.0.1-----select * from xia_attribute where cid=731 order by sort desc,id desc -----00:10:51
+127.0.0.1-----set names utf8-----00:10:52
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----00:10:52
+127.0.0.1-----select * from xia_webset where type=2 -----00:10:52
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----00:10:52
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----00:10:52
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----00:10:52
+127.0.0.1-----select title from xia_menu where `mod`="product" and act="addedi" limit 1-----00:10:52
+127.0.0.1-----select id from xia_type where 1=1 order by sort desc limit 1-----00:10:52
+127.0.0.1-----select * from xia_type where pid="0" and tag="article" and model_id=2 order by sort desc -----00:10:52
+127.0.0.1-----select * from xia_type where pid="734" and tag="article" order by sort desc -----00:10:52
+127.0.0.1-----select * from xia_type where pid="733" and tag="article" order by sort desc -----00:10:52
+127.0.0.1-----select * from xia_type where pid="732" and tag="article" order by sort desc -----00:10:52
+127.0.0.1-----select * from xia_type where pid="731" and tag="article" order by sort desc -----00:10:52
+127.0.0.1-----select * from xia_type where pid="730" and tag="article" order by sort desc -----00:10:52
+127.0.0.1-----select * from xia_type where pid="729" and tag="article" order by sort desc -----00:10:52
+127.0.0.1-----select * from xia_type where pid="728" and tag="article" order by sort desc -----00:10:52
+127.0.0.1-----select * from xia_type where pid="727" and tag="article" order by sort desc -----00:10:52
+127.0.0.1-----select * from xia_type where pid="726" and tag="article" order by sort desc -----00:10:53
+127.0.0.1-----select * from xia_type where pid="725" and tag="article" order by sort desc -----00:10:53
+127.0.0.1-----select * from xia_type where pid="724" and tag="article" order by sort desc -----00:10:53
+127.0.0.1-----set names utf8-----00:11:11
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----00:11:11
+127.0.0.1-----select * from xia_webset where type=2 -----00:11:11
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----00:11:11
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----00:11:11
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----00:11:11
+127.0.0.1-----show fields from `xia_product`-----00:11:11
+127.0.0.1-----show fields from `xia_product`-----00:11:11
+127.0.0.1-----select count(1) as num from xia_product where `title` like '%%' -----00:11:11
+127.0.0.1-----select * from xia_product where `title` like "%%"  order by  sort desc ,id desc limit 0,500 -----00:11:11
+127.0.0.1-----select * from xia_duoduo2010 where role=5 order by id desc -----00:11:11
+127.0.0.1-----select title from xia_menu where `mod`="product" and act="list" limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=724 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=725 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=725 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=726 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:11
+127.0.0.1-----set names utf8-----00:11:16
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----00:11:16
+127.0.0.1-----select * from xia_webset where type=2 -----00:11:16
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----00:11:16
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----00:11:16
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----00:11:16
+127.0.0.1-----insert into xia_adminlog set `mod`='product',`admin_name`='admin',`addtime`='1573229475',`ip`='127.0.0.1',`do`='delete'-----00:11:16
+127.0.0.1-----show fields from `xia_product`-----00:11:16
+127.0.0.1-----delete from xia_product where id IN(236)-----00:11:16
+127.0.0.1-----set names utf8-----00:11:18
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----00:11:18
+127.0.0.1-----select * from xia_webset where type=2 -----00:11:18
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----00:11:18
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----00:11:18
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----00:11:18
+127.0.0.1-----show fields from `xia_product`-----00:11:18
+127.0.0.1-----show fields from `xia_product`-----00:11:18
+127.0.0.1-----select count(1) as num from xia_product where `title` like '%%' -----00:11:18
+127.0.0.1-----select * from xia_product where `title` like "%%"  order by  sort desc ,id desc limit 0,500 -----00:11:18
+127.0.0.1-----select * from xia_duoduo2010 where role=5 order by id desc -----00:11:18
+127.0.0.1-----select title from xia_menu where `mod`="product" and act="list" limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=731 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=724 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=725 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=725 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=726 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=729 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----select title from xia_type where id=734 limit 1-----00:11:18
+127.0.0.1-----set names utf8-----00:15:26
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----00:15:26
+127.0.0.1-----select * from xia_webset where type=2 -----00:15:26
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----00:15:26
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----00:15:26
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----00:15:26
+127.0.0.1-----select title from xia_menu where `mod`="product" and act="addedi" limit 1-----00:15:26
+127.0.0.1-----select id from xia_type where 1=1 order by sort desc limit 1-----00:15:26
+127.0.0.1-----select * from xia_type where pid="0" and tag="article" and model_id=2 order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="734" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="733" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="732" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="731" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="730" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="729" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="728" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="727" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="726" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="725" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----select * from xia_type where pid="724" and tag="article" order by sort desc -----00:15:26
+127.0.0.1-----set names utf8-----09:55:37
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----09:55:37
+127.0.0.1-----select * from xia_webset where type=2 -----09:55:37
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----09:55:37
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:55:37
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:55:37
+127.0.0.1-----set names utf8-----09:55:38
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----09:55:38
+127.0.0.1-----select * from xia_webset where type=2 -----09:55:38
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----09:55:38
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:55:38
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:55:38
+127.0.0.1-----select * from xia_duoduo2010 where id="1" limit 1-----09:55:38
+127.0.0.1-----set names utf8-----09:55:40
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----09:55:40
+127.0.0.1-----select * from xia_webset where type=2 -----09:55:40
+127.0.0.1-----set names utf8-----09:55:40
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----09:55:40
+127.0.0.1-----select * from xia_webset where type=2 -----09:55:40
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----09:55:40
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:55:40
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----09:55:40
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:55:40
+127.0.0.1-----select * from xia_domain where `mod`="goods" and close=0 limit 1-----09:55:40
+127.0.0.1-----ALTER TABLE `xia_goods` CHANGE `tg_url` `tg_url` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;-----09:55:40
+127.0.0.1-----ALTER TABLE  `xia_goods` CHANGE  `nick`  `nick` VARCHAR( 20 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL-----09:55:40
+127.0.0.1-----ALTER TABLE `xia_mall` ADD `is_search` tinyint(1) DEFAULT '0'-----09:55:40
+127.0.0.1-----select * from xia_adminlog where 1=1 order by id desc limit 5 -----09:55:40
+127.0.0.1-----select count(1) as num from xia_tradelist where checked=1-----09:55:40
+127.0.0.1-----select count(1) as num from xia_msg where see=0 and uid=0-----09:55:40
+127.0.0.1-----select count(1) as num from xia_duihuan where status=0-----09:55:40
+127.0.0.1-----select count(1) as num from xia_tixian where status=0-----09:55:40
+127.0.0.1-----select count(1) as num from xia_hezuo where status=0-----09:55:40
+127.0.0.1-----select count(1) as num from xia_baobei where status=2-----09:55:40
+127.0.0.1-----select sum(money) as sum from xia_tixian where type=1 and status=1 and dotime >= "1573228800" and dotime < "1573315199"-----09:55:40
+127.0.0.1-----select sum(money) as sum from xia_tixian where type=2 and status=1 and dotime >= "1573228800" and dotime < "1573315199"-----09:55:40
+127.0.0.1-----select sum(spend) as sum from xia_duihuan where mode=1 and status=1 and addtime >= "1573228800" and addtime < "1573315199"-----09:55:40
+127.0.0.1-----select count(1) as num from xia_user where 1 and regtime >= "2019-11-09 00:00:00" and regtime < "2019-11-09 23:59:59"-----09:55:40
+127.0.0.1-----select sum(real_pay_fee) as sum from xia_tradelist where 1 and pay_time >= "2019-11-09 00:00:00" and pay_time < "2019-11-09 23:59:59"-----09:55:40
+127.0.0.1-----select sum(commission) as sum from xia_tradelist where 1 and pay_time >= "2019-11-09 00:00:00" and pay_time < "2019-11-09 23:59:59"-----09:55:40
+127.0.0.1-----select count(1) as num from xia_tradelist where 1 and pay_time >= "2019-11-09 00:00:00" and pay_time < "2019-11-09 23:59:59"-----09:55:40
+127.0.0.1-----select count(1) as num from xia_tradelist where checked=2 and pay_time >= "2019-11-09 00:00:00" and pay_time < "2019-11-09 23:59:59"-----09:55:40
+127.0.0.1-----select sum(sales) as sum from xia_mall_order where status=1 and order_time >= "1573228800" and order_time < "1573315199"-----09:55:40
+127.0.0.1-----select sum(commission) as sum from xia_mall_order where status=1 and order_time >= "1573228800" and order_time < "1573315199"-----09:55:40
+127.0.0.1-----select count(1) as num from xia_mall_order where 1 and order_time >= "1573228800" and order_time < "1573315199"-----09:55:40
+127.0.0.1-----select count(1) as num from xia_mall_order where status=1 and order_time >= "1573228800" and order_time < "1573315199"-----09:55:40
+127.0.0.1-----select count(1) as num from xia_mall_order where status=0 and order_time >= "1573228800" and order_time < "1573315199"-----09:55:40
+127.0.0.1-----select count(1) as num from xia_mall_order where uid=0 and order_time >= "1573228800" and order_time < "1573315199"-----09:55:40
+127.0.0.1-----select sum(`point`) as `point`,sum(`commission`) as `commission` from xia_task where (immediate="1" or immediate="2") and addtime >= "2019-11-09 00:00:00" and addtime < "2019-11-09 23:59:59"-----09:55:40
+127.0.0.1-----select count(1) as num from xia_task where 1 and addtime >= "2019-11-09 00:00:00" and addtime < "2019-11-09 23:59:59"-----09:55:40
+127.0.0.1-----select count(1) as num from xia_task where (immediate="1" or immediate="2") and addtime >= "2019-11-09 00:00:00" and addtime < "2019-11-09 23:59:59"-----09:55:40
+127.0.0.1-----select * from xia_kuaijie where 1 order by id asc -----09:55:40
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:55:40
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:55:40
+127.0.0.1-----set names utf8-----09:55:41
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----09:55:41
+127.0.0.1-----select * from xia_webset where type=2 -----09:55:41
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----09:55:41
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:55:41
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:55:41
+127.0.0.1-----select title from xia_menu where `mod`="webset" and act="set" limit 1-----09:55:42
+127.0.0.1-----set names utf8-----09:55:54
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----09:55:54
+127.0.0.1-----select * from xia_webset where type=2 -----09:55:54
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----09:55:54
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:55:54
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:55:54
+127.0.0.1-----show fields from `xia_product`-----09:55:54
+127.0.0.1-----show fields from `xia_product`-----09:55:54
+127.0.0.1-----select count(1) as num from xia_product where `title` like '%%' -----09:55:54
+127.0.0.1-----select * from xia_product where `title` like "%%"  order by  sort desc ,id desc limit 0,500 -----09:55:54
+127.0.0.1-----select * from xia_duoduo2010 where role=5 order by id desc -----09:55:54
+127.0.0.1-----select title from xia_menu where `mod`="product" and act="list" limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=724 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=725 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=725 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=726 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:55:54
+127.0.0.1-----set names utf8-----09:56:01
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----09:56:01
+127.0.0.1-----select * from xia_webset where type=2 -----09:56:01
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----09:56:01
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:56:01
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:56:01
+127.0.0.1-----select * from xia_product where id="228" limit 1-----09:56:01
+127.0.0.1-----select title from xia_menu where `mod`="product" and act="addedi" limit 1-----09:56:01
+127.0.0.1-----select * from xia_type where pid="0" and tag="article" and model_id=2 order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="734" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="733" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="732" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="731" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="730" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="729" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="728" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="727" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="726" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="725" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----select * from xia_type where pid="724" and tag="article" order by sort desc -----09:56:01
+127.0.0.1-----set names utf8-----09:56:10
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----09:56:10
+127.0.0.1-----select * from xia_webset where type=2 -----09:56:10
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----09:56:10
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:56:10
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:56:10
+127.0.0.1-----insert into xia_adminlog set `mod`='product',`admin_name`='admin',`addtime`='1573264569',`ip`='127.0.0.1',`do`='update'-----09:56:10
+127.0.0.1-----delete from xia_product_attr where pid=228-----09:56:10
+127.0.0.1-----update xia_product set `sort`='10',`content`='',`mp3_time`='00:00',`hits`='1320',`xiazai`='402',`zan`='424',`sc`='478',`addtime`='1573224778',`size`='',`format`='',`author`='',`software`='',`xia`='',`original`='1',`video`='',`img`='http://img.tukuppt.com/ad_preview/00/03/62/aSARnV3skt.jpg!/both/260x600',`cid`='731',`status`='1',`title`='600个超实用ICON图标矢量' where id="228" limit 1-----09:56:10
+127.0.0.1-----select cid from xia_product where id=228 limit 1-----09:56:10
+127.0.0.1-----select * from xia_attribute where cid=731 order by sort desc,id desc -----09:56:10
+127.0.0.1-----set names utf8-----09:56:11
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----09:56:11
+127.0.0.1-----select * from xia_webset where type=2 -----09:56:11
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----09:56:11
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:56:11
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:56:11
+127.0.0.1-----show fields from `xia_product`-----09:56:11
+127.0.0.1-----show fields from `xia_product`-----09:56:11
+127.0.0.1-----select count(1) as num from xia_product where `title` like '%%' -----09:56:11
+127.0.0.1-----select * from xia_product where `title` like "%%"  order by  sort desc ,id desc limit 0,500 -----09:56:11
+127.0.0.1-----select * from xia_duoduo2010 where role=5 order by id desc -----09:56:11
+127.0.0.1-----select title from xia_menu where `mod`="product" and act="list" limit 1-----09:56:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:56:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:56:11
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=731 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=724 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=725 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=725 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=726 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=729 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----select title from xia_type where id=734 limit 1-----09:56:12
+127.0.0.1-----set names utf8-----11:29:26
+127.0.0.1-----select * from xia_webset where type=1 or type=0 -----11:29:26
+127.0.0.1-----select * from xia_webset where type=2 -----11:29:26
+127.0.0.1-----select val from xia_webset where var="authorize" limit 1-----11:29:26
+127.0.0.1-----select a.id from xia_menu as a,xia_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:29:26
+127.0.0.1-----select a.* from xia_menu as a,xia_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:29:26
+127.0.0.1-----show fields from `xia_product`-----11:29:26
+127.0.0.1-----show fields from `xia_product`-----11:29:26
+127.0.0.1-----select count(1) as num from xia_product where `title` like '%%' -----11:29:26
+127.0.0.1-----select * from xia_product where `title` like "%%"  order by  sort desc ,id desc limit 0,500 -----11:29:26
+127.0.0.1-----select * from xia_duoduo2010 where role=5 order by id desc -----11:29:26
+127.0.0.1-----select title from xia_menu where `mod`="product" and act="list" limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=731 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=731 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=731 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=731 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=731 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=731 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=731 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=731 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=724 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=725 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=725 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=726 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=729 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=729 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=729 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=729 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=729 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=729 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26
+127.0.0.1-----select title from xia_type where id=734 limit 1-----11:29:26

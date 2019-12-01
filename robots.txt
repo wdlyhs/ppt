@@ -1,0 +1,16 @@
+#
+# robots.txt for  dd
+#
+
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /comm/
+Disallow: /css/
+Disallow: /data/
+Disallow: /js/
+Disallow: /mod/
+Disallow: /page/
+Disallow: /template/
+Disallow: /upload/
+Disallow: /index.php?mod=jump*
